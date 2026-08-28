@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c821b297-0f05-4230-8264-d20acd1c9563</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Documents\ReadMe.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ApplicationImages\3cc52c88-5c58-481e-9f5a-533152911041.png" />
+    <None Remove="ApplicationImages\41408b39-2d3e-43c8-8abc-d156c199ded8.png" />
+    <None Remove="ApplicationImages\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg" />
+    <None Remove="ApplicationImages\70de369b-60ee-4aaf-85b0-04b8ad623991.png" />
+    <None Remove="ApplicationImages\ab90af7f-6576-4f63-bce8-bae4d687de0b.png" />
+    <None Remove="ApplicationImages\be451c4b-e9d3-44d3-834c-28b94c352353.png" />
+    <None Remove="ApplicationImages\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg" />
+    <None Remove="ApplicationImages\d350d454-b583-4725-b20f-7c1a0e03d51b.svg" />
+    <None Remove="ApplicationImages\ed572294-335b-46bd-8df8-99de63864904.png" />
+    <None Remove="ApplicationImages\ede11902-62a8-4e76-859f-2312b0c24893.png" />
+    <None Remove="ApplicationImages\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ApplicationImages\3cc52c88-5c58-481e-9f5a-533152911041.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\41408b39-2d3e-43c8-8abc-d156c199ded8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\70de369b-60ee-4aaf-85b0-04b8ad623991.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\ab90af7f-6576-4f63-bce8-bae4d687de0b.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\be451c4b-e9d3-44d3-834c-28b94c352353.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\d350d454-b583-4725-b20f-7c1a0e03d51b.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\ed572294-335b-46bd-8df8-99de63864904.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\ede11902-62a8-4e76-859f-2312b0c24893.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ApplicationImages\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Documents\ReadMe.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="NLog" Version="6.1.4" />
+		<PackageReference Include="NLog.Web.AspNetCore" Version="6.1.4" />
+		<PackageReference Include="System.DirectoryServices" Version="10.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.10" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\FundManager.Common\FundManager.Common.csproj" />
+	  <ProjectReference Include="..\FundManager.Implement\FundManager.Implement.csproj" />
+	</ItemGroup>
+
+</Project>

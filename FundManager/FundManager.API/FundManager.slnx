@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../FundManager.Common/FundManager.Common.csproj" />
+  <Project Path="../FundManager.DataAcess/FundManager.DataAccess.csproj" />
+  <Project Path="../FundManager.Implement/FundManager.Implement.csproj" />
+  <Project Path="FundManager.API.csproj" />
+</Solution>

@@ -1,0 +1,21 @@
+export const BASE_API_ENDPOINT = "/api";
+
+export const BASE_SETTINGS = `${BASE_API_ENDPOINT}/settings`;
+export const BASE_PERMISSION = `${BASE_API_ENDPOINT}/permission`;
+export const BASE_ROLE = `${BASE_API_ENDPOINT}/role`;
+export const BASE_USER = `${BASE_API_ENDPOINT}/user`;
+export const BASE_EMPLOYEE_ROLE = `${BASE_API_ENDPOINT}/employee-role`;
+export const BASE_PROPERTY = `${BASE_API_ENDPOINT}/property`;
+export const BASE_MAPPING_PROPERTY = `${BASE_API_ENDPOINT}/property-mapping`;
+export const BASE_OUTLET = `${BASE_API_ENDPOINT}/outlet`;
+export const BASE_TEMPLATE = `${BASE_API_ENDPOINT}/form-template`;
+export const BASE_SUBMISSION = `${BASE_API_ENDPOINT}/form-submission`;
+export const BASE_WORKFLOW = `${BASE_API_ENDPOINT}/workflow`;
+export const BASE_DOCUMENT = `${BASE_API_ENDPOINT}/document-template`;
+export const BASE_PATRON_DEVICE = `${BASE_API_ENDPOINT}/patron-device`;
+export const BASE_MAPPING_DEVICE = `${BASE_API_ENDPOINT}/device-mapping`;
+export const BASE_MANAGEMENT_DEVICE = `${BASE_API_ENDPOINT}/manage-device`;
+export const BASE_AUDIT_LOG = `${BASE_API_ENDPOINT}/audit-logs`;
+export const BASE_CUSTOMER_SIGNED = `${BASE_API_ENDPOINT}/customer-sign`;
+export const BASE_LANGUAGE = `${BASE_API_ENDPOINT}/language`;
+export const BASE_PATRON_TYPE = `${BASE_API_ENDPOINT}/patron-type`;

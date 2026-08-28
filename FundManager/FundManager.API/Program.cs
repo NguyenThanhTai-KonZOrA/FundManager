@@ -73,13 +73,8 @@ try
     #endregion
 
     #region Register Database
-    builder.Services.AddDbContext<DigitalDocumentPlatformDbContext>(options =>
+    builder.Services.AddDbContext<FundManagerDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString(CommonConstants.DefaultConnection))
-        .LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information));
-
-
-    builder.Services.AddDbContext<BreakFastCheckInDbContext>(options =>
-        options.UseSqlServer(builder.Configuration.GetConnectionString(CommonConstants.BreakFastCheckInConnection))
         .LogTo(Console.WriteLine, Microsoft.Extensions.Logging.LogLevel.Information));
     #endregion
 
@@ -160,14 +155,14 @@ try
     app.MapControllers();
 
     logger.Info("============> Map SignalR Hubs initializing... <============");
-    SignalRConfiguration.MapSignalRHubs(app, logger);
+    //SignalRConfiguration.MapSignalRHubs(app, logger);
     logger.Info("============> Map SignalR Hubs end! <============");
 
     // Database Migration
     logger.Info("============> Check and run migration initializing... <============");
     using (var scope = app.Services.CreateScope())
     {
-        var context = scope.ServiceProvider.GetRequiredService<DigitalDocumentPlatformDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<FundManagerDbContext>();
         await context.Database.MigrateAsync();
     }
     logger.Info("============> Check and run migration end! <============");

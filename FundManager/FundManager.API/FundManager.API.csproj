@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Configurations\SignalRConfiguration.cs" />
     <Compile Remove="Documents\ReadMe.cs" />
   </ItemGroup>
 

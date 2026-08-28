@@ -7,7 +7,7 @@ namespace FundManager.Implement.Repositories
 {
     public class PermissionRepository : GenericRepository<Permission>, IPermissionRepository
     {
-        public PermissionRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        public PermissionRepository(FundManagerDbContext context) : base(context)
         {
         }
 

@@ -7,6 +7,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Configurations\DeviceConfiguration.cs" />
+	  <Compile Remove="Configurations\DocumentTemplateConfiguration.cs" />
+	  <Compile Remove="Configurations\FormConfiguration.cs" />
+	  <Compile Remove="Configurations\PropertyOutletConfiguration.cs" />
+	  <Compile Remove="Configurations\WorkflowConfiguration.cs" />
+	  <Compile Remove="Initalizer\CountrySeed.cs" />
+	  <Compile Remove="Initalizer\DocumentTemplateSeed.cs" />
+	  <Compile Remove="Initalizer\DocumentTemplateTranslationSeed.cs" />
+	  <Compile Remove="Initalizer\FormTemplateSeed.cs" />
+	  <Compile Remove="Initalizer\FormTemplateTranslationsSeed.cs" />
+	  <Compile Remove="Initalizer\LanguageSeed.cs" />
+	  <Compile Remove="Initalizer\OutletSeed.cs" />
+	  <Compile Remove="Initalizer\PropertyOutletSeed.cs" />
+	  <Compile Remove="Initalizer\PropertySeed.cs" />
+	  <Compile Remove="Initalizer\WorkflowSeed.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.10" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
 			<PrivateAssets>all</PrivateAssets>

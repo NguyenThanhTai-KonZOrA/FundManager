@@ -7,8 +7,8 @@ namespace FundManager.Implement.Repositories
 {
     public class EmployeeRepository : GenericRepository<Employee>, IEmployeeRepository
     {
-        private readonly DigitalDocumentPlatformDbContext _context;
-        public EmployeeRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        private readonly FundManagerDbContext _context;
+        public EmployeeRepository(FundManagerDbContext context) : base(context)
         {
             _context = context;
         }

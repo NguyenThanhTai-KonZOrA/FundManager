@@ -75,51 +75,6 @@ namespace FundManager.API.Controllers
             }
         }
 
-        [HttpPost("create")]
-        [Consumes("multipart/form-data")]
-        [AuditLog("ApplicationImage", "Create")]
-        public async Task<IActionResult> Create([FromForm] CreateApplicationImageRequest request)
-        {
-            try
-            {
-                var currentUser = EmployeeHelper.CurrentEmployee(HttpContext);
-                _logger.LogInformation("[ApplicationImageController.Create]: name={Name}, type={Type}, by={User}", request.Name, request.Type, currentUser.Name);
-                var result = await _applicationImageService.CreateAsync(request, currentUser.Name);
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "[ApplicationImageController.Create]: {ErrorMessage}", ex.Message);
-                throw new BadHttpRequestException(ex.Message);
-            }
-        }
-
-        [HttpPost("update")]
-        [Consumes("multipart/form-data")]
-        [AuditLog("ApplicationImage", "Update")]
-        public async Task<IActionResult> Update([FromForm] UpdateApplicationImageRequest request)
-        {
-            try
-            {
-                var currentUser = EmployeeHelper.CurrentEmployee(HttpContext);
-                _logger.LogInformation("[ApplicationImageController.Update]: id={Id}, by={User}", request.Id, currentUser.Name);
-                var result = await _applicationImageService.UpdateAsync(request, currentUser.Name);
-                return Ok(result);
-            }
-            catch (ArgumentException ex)
-            {
-                return BadRequest("Some thing went wrong: " + ex.Message);
-            }
-            catch (KeyNotFoundException ex)
-            {
-                return BadRequest("Some thing went wrong: " + ex.Message);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "[ApplicationImageController.Update]: {ErrorMessage}", ex.Message);
-                throw new BadHttpRequestException(ex.Message);
-            }
-        }
 
         [HttpPost("delete/{id:int}")]
         [AuditLog("ApplicationImage", "Delete")]

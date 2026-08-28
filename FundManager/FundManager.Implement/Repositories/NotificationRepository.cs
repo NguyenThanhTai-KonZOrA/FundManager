@@ -8,7 +8,7 @@ namespace FundManager.Implement.Repositories
 {
     public class NotificationRepository : GenericRepository<Notification>, INotificationRepository
     {
-        public NotificationRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        public NotificationRepository(FundManagerDbContext context) : base(context)
         {
         }
 

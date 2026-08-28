@@ -8,9 +8,9 @@ namespace FundManager.Implement.Repositories
 {
     public class AuditLogRepository : IAuditLogRepository
     {
-        private readonly DigitalDocumentPlatformDbContext _context;
+        private readonly FundManagerDbContext _context;
 
-        public AuditLogRepository(DigitalDocumentPlatformDbContext context)
+        public AuditLogRepository(FundManagerDbContext context)
         {
             _context = context;
         }

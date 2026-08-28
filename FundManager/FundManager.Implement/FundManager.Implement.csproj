@@ -7,6 +7,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Workers\NotificationRetryWorker.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="ClosedXML" Version="0.105.0" />
 		<PackageReference Include="DocumentFormat.OpenXml" Version="3.5.1" />
 		<PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.3.11" />
@@ -32,7 +36,9 @@
 	<ItemGroup>
 		<Folder Include="Extensions\" />
 		<Folder Include="Helpers\" />
+		<Folder Include="SignalRHubs\" />
 		<Folder Include="Validators\" />
+		<Folder Include="Workers\" />
 	</ItemGroup>
 
 </Project>

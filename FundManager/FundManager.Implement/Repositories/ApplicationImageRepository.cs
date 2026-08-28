@@ -8,7 +8,7 @@ namespace FundManager.Implement.Repositories
 {
     public class ApplicationImageRepository : GenericRepository<ApplicationImage>, IApplicationImageRepository
     {
-        public ApplicationImageRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        public ApplicationImageRepository(FundManagerDbContext context) : base(context)
         {
         }
 

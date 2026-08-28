@@ -7,9 +7,9 @@ namespace FundManager.Implement.Repositories
 {
     public class ApplicationSettingsRepository : GenericRepository<ApplicationSettings>, IApplicationSettingsRepository
     {
-        private readonly DigitalDocumentPlatformDbContext _context;
+        private readonly FundManagerDbContext _context;
 
-        public ApplicationSettingsRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        public ApplicationSettingsRepository(FundManagerDbContext context) : base(context)
         {
             _context = context;
         }

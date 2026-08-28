@@ -7,10 +7,10 @@ namespace FundManager.Implement.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        protected readonly DigitalDocumentPlatformDbContext _context;
+        protected readonly FundManagerDbContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public GenericRepository(DigitalDocumentPlatformDbContext context)
+        public GenericRepository(FundManagerDbContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();

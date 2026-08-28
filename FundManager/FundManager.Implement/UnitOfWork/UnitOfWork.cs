@@ -6,7 +6,7 @@ namespace FundManager.Implement.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly DigitalDocumentPlatformDbContext _context;
+        private readonly FundManagerDbContext _context;
         private IDbContextTransaction? _transaction;
 
         public IAuditLogRepository AuditLogs { get; }
@@ -16,21 +16,8 @@ namespace FundManager.Implement.UnitOfWork
         public IEmployeeRoleRepository EmployeeRoles { get; }
         public IRolePermissionRepository RolePermissions { get; }
         public IApplicationSettingsRepository ApplicationSettings { get; }
-        public IPropertyRepository Properties { get; }
-        public IOutletRepository Outlets { get; }
-        public IPropertyOutletRepository PropertyOutlets { get; }
         public IApplicationImageRepository ApplicationImages { get; }
-        public IStaffDeviceRepository StaffDevices { get; }
-        public IPatronDeviceRepository PatronDevices { get; }
-        public IFormTemplateRepository FormTemplates { get; }
-        public IFormQuestionRepository FormQuestions { get; }
-        public IFormSubmissionRepository FormSubmissions { get; }
-        public IWorkflowRepository Workflows { get; }
-        public IDocumentTemplateRepository DocumentTemplates { get; }
-        public ILanguageRepository Languages { get; }
-        public IPatronTypeRepository PatronTypes { get; }
-
-        public UnitOfWork(DigitalDocumentPlatformDbContext context,
+        public UnitOfWork(FundManagerDbContext context,
             IAuditLogRepository auditLogs,
             IEmployeeRepository employees,
             IRoleRepository roles,
@@ -38,19 +25,7 @@ namespace FundManager.Implement.UnitOfWork
             IEmployeeRoleRepository employeeRoles,
             IRolePermissionRepository rolePermissions,
             IApplicationSettingsRepository applicationSettings,
-            IPropertyRepository properties,
-            IOutletRepository outlets,
-            IPropertyOutletRepository propertyOutlets,
-            IApplicationImageRepository applicationImages,
-            IStaffDeviceRepository staffDevices,
-            IPatronDeviceRepository patronDevices,
-            IFormTemplateRepository formTemplates,
-            IFormQuestionRepository formQuestions,
-            IFormSubmissionRepository formSubmissions,
-            IWorkflowRepository workflows,
-            IDocumentTemplateRepository documentTemplates,
-            ILanguageRepository languages,
-            IPatronTypeRepository patronTypes
+            IApplicationImageRepository applicationImages
             )
         {
             _context = context;
@@ -61,19 +36,7 @@ namespace FundManager.Implement.UnitOfWork
             EmployeeRoles = employeeRoles;
             RolePermissions = rolePermissions;
             ApplicationSettings = applicationSettings;
-            Properties = properties;
-            Outlets = outlets;
-            PropertyOutlets = propertyOutlets;
             ApplicationImages = applicationImages;
-            StaffDevices = staffDevices;
-            PatronDevices = patronDevices;
-            FormTemplates = formTemplates;
-            FormQuestions = formQuestions;
-            FormSubmissions = formSubmissions;
-            Workflows = workflows;
-            DocumentTemplates = documentTemplates;
-            Languages = languages;
-            PatronTypes = patronTypes;
         }
 
         public async Task<int> SaveChangesAsync()

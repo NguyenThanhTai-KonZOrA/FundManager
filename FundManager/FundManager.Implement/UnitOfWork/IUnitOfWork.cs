@@ -11,27 +11,8 @@ namespace FundManager.Implement.UnitOfWork
         IEmployeeRoleRepository EmployeeRoles { get; }
         IRolePermissionRepository RolePermissions { get; }
         IApplicationSettingsRepository ApplicationSettings { get; }
-        IPropertyRepository Properties { get; }
-        IOutletRepository Outlets { get; }
-        IPropertyOutletRepository PropertyOutlets { get; }
         IApplicationImageRepository ApplicationImages { get; }
-        IStaffDeviceRepository StaffDevices { get; }
-        IPatronDeviceRepository PatronDevices { get; }
 
-        // Form template & submission
-        IFormTemplateRepository FormTemplates { get; }
-        IFormQuestionRepository FormQuestions { get; }
-        IFormSubmissionRepository FormSubmissions { get; }
-
-        // Workflow
-        IWorkflowRepository Workflows { get; }
-
-        // Document template
-        IDocumentTemplateRepository DocumentTemplates { get; }
-
-        // Lookup tables
-        ILanguageRepository Languages { get; }
-        IPatronTypeRepository PatronTypes { get; }
         /// <summary>
         /// Saves all changes made in this context to the database asynchronously.
         /// </summary>

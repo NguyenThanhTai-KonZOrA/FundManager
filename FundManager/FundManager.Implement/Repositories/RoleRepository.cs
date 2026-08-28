@@ -7,7 +7,7 @@ namespace FundManager.Implement.Repositories
 {
     public class RoleRepository : GenericRepository<Role>, IRoleRepository
     {
-        public RoleRepository(DigitalDocumentPlatformDbContext context) : base(context)
+        public RoleRepository(FundManagerDbContext context) : base(context)
         {
         }
 

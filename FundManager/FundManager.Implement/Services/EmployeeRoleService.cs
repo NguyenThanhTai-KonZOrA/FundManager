@@ -13,13 +13,13 @@ namespace FundManager.Implement.Services
     public class EmployeeRoleService : IEmployeeRoleService
     {
         private readonly IEmployeeRoleRepository _employeeRoleRepository;
-        private readonly DigitalDocumentPlatformDbContext _context;
+        private readonly FundManagerDbContext _context;
         private readonly IUnitOfWork _unitOfWork;
         private readonly ILogger<EmployeeRoleService> _logger;
 
         public EmployeeRoleService(
             IEmployeeRoleRepository employeeRoleRepository,
-            DigitalDocumentPlatformDbContext context,
+            FundManagerDbContext context,
             IUnitOfWork unitOfWork,
             ILogger<EmployeeRoleService> logger)
         {

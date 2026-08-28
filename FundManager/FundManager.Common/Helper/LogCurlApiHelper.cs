@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace DigitalDocumentPlatform.Common.Helper
+namespace FundManager.Common.Helper
 {
     public static class LogCurlApiHelper
     {

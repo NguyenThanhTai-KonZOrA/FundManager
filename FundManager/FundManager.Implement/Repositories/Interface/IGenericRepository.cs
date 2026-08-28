@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IGenericRepository<T> where T : class
     {

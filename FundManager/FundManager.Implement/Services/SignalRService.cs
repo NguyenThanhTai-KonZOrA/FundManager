@@ -1,14 +1,14 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.SignalRHubs;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
+﻿using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.SignalRHubs;
+using FundManager.Implement.UnitOfWork;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class SignalRService : ISignalRService
     {

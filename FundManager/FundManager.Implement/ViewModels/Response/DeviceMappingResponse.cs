@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Implement.ViewModels.Response
+﻿namespace FundManager.Implement.ViewModels.Response
 {
     public class DeviceMappingResponse
     {

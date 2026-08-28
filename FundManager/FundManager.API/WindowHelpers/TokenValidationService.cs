@@ -1,13 +1,13 @@
-﻿using DigitalDocumentPlatform.Common.JwtAuthen;
-using DigitalDocumentPlatform.Common.SystemConfiguration;
-using DigitalDocumentPlatform.Implement.ViewModels.TokenValidation;
+﻿using FundManager.Common.JwtAuthen;
+using FundManager.Common.SystemConfiguration;
+using FundManager.Implement.ViewModels.TokenValidation;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using TokenValidationResult = DigitalDocumentPlatform.Implement.ViewModels.TokenValidation.TokenValidationResult;
+using TokenValidationResult = FundManager.Implement.ViewModels.TokenValidation.TokenValidationResult;
 
-namespace DigitalDocumentPlatform.API.WindowHelpers
+namespace FundManager.API.WindowHelpers
 {
     public class TokenValidationService
     {

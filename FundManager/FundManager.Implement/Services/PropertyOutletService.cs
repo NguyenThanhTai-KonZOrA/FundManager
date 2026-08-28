@@ -1,5 +1,5 @@
 ﻿using BreakFastCheckIn.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
+using FundManager.Implement.Repositories.Interface;
 
 namespace BreakFastCheckIn.Implement.Services
 {

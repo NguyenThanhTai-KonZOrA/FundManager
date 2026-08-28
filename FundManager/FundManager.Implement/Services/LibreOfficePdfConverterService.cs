@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.Implement.Services.Interface;
+﻿using FundManager.Implement.Services.Interface;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class LibreOfficePdfConverterService : IPdfConverterService
     {

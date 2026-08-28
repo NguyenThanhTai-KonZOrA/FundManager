@@ -1,4 +1,4 @@
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Defines the type/category of a document template.

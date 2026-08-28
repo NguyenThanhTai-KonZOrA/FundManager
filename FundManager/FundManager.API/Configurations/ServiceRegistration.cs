@@ -1,20 +1,20 @@
 ﻿using BreakFastCheckIn.Implement.Services;
 using BreakFastCheckIn.Implement.Services.Interface;
-using DigitalDocumentPlatform.API.WindowHelpers;
-using DigitalDocumentPlatform.BackgroundQueue;
-using DigitalDocumentPlatform.Common.ApiClient;
-using DigitalDocumentPlatform.Common.MemoryCache;
-using DigitalDocumentPlatform.Common.SystemConfiguration;
-using DigitalDocumentPlatform.Implement.BackgroundQueue;
-using DigitalDocumentPlatform.Implement.Repositories;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.Workers;
+using FundManager.API.WindowHelpers;
+using FundManager.BackgroundQueue;
+using FundManager.Common.ApiClient;
+using FundManager.Common.MemoryCache;
+using FundManager.Common.SystemConfiguration;
+using FundManager.Implement.BackgroundQueue;
+using FundManager.Implement.Repositories;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.Workers;
 using NLog;
 
-namespace DigitalDocumentPlatform.API.Configurations
+namespace FundManager.API.Configurations
 {
     public static class ServiceRegistration
     {

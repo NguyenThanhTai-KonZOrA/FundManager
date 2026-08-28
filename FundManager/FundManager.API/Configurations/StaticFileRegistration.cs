@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.FileProviders;
 using NLog;
 
-namespace DigitalDocumentPlatform.API.Configurations
+namespace FundManager.API.Configurations
 {
     public static class StaticFileRegistration
     {

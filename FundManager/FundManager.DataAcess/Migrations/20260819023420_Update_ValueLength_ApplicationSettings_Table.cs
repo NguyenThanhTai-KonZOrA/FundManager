@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DigitalDocumentPlatform.DataAccess.Migrations
+namespace FundManager.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class Update_ValueLength_ApplicationSettings_Table : Migration

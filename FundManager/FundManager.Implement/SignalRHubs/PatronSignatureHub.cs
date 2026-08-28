@@ -1,9 +1,9 @@
-﻿using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.SignalRHubs
+namespace FundManager.Implement.SignalRHubs
 {
     public class PatronSignatureHub : Hub
     {

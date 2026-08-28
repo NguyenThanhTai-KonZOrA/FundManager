@@ -1,6 +1,6 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.DataAccess.EntityModels;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IPropertyRepository : IGenericRepository<Property>
     {

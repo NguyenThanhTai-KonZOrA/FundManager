@@ -1,9 +1,9 @@
-using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
+using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.Implement.Repositories
+namespace FundManager.Implement.Repositories
 {
     public class PatronTypeRepository : GenericRepository<PatronType>, IPatronTypeRepository
     {

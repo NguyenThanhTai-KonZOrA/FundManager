@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.Common.BaseEntity;
-using DigitalDocumentPlatform.Common.Enum;
+﻿using FundManager.Common.BaseEntity;
+using FundManager.Common.Enum;
 using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     public class ApplicationImage : BaseEntity
     {

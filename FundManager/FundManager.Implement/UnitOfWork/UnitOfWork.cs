@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
+﻿using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.Implement.Repositories.Interface;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace DigitalDocumentPlatform.Implement.UnitOfWork
+namespace FundManager.Implement.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {

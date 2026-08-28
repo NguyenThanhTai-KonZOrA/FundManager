@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
+﻿using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.ViewModels.Request;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IAuditLogRepository
     {

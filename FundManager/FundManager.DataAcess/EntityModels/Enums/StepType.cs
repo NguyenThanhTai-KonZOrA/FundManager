@@ -1,4 +1,4 @@
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Defines what kind of action a WorkflowStep requires the patron to perform.

@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.Helper
+﻿namespace FundManager.Common.Helper
 {
     public static class PhoneNumberHelper
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Request
+namespace FundManager.Implement.ViewModels.Request
 {
     public class CreateOutletRequest
     {

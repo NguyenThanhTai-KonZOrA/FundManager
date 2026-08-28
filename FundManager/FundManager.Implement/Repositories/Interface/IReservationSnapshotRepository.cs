@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.DataAccess.ExternalEntityModels;
+﻿using FundManager.DataAccess.ExternalEntityModels;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IReservationSnapshotRepository
     {

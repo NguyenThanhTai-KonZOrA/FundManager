@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace DigitalDocumentPlatform.Common.Enum
+namespace FundManager.Common.Enum
 {
     public enum ImageTypeEnum : byte
     {

@@ -1,6 +1,6 @@
-using DigitalDocumentPlatform.Common.Constants;
+using FundManager.Common.Constants;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Response
+namespace FundManager.Implement.ViewModels.Response
 {
     // ─── Signed Customers List (Admin page) ───────────────────────────────────
 

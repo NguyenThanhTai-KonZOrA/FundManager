@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Implement.ViewModels.TokenValidation
+﻿namespace FundManager.Implement.ViewModels.TokenValidation
 {
     /// <summary>
     /// Result of token validation

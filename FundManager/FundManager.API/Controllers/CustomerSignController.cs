@@ -1,12 +1,12 @@
-﻿using DigitalDocumentPlatform.API.Filters;
-using DigitalDocumentPlatform.API.Helpers;
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.API.Filters;
+using FundManager.API.Helpers;
+using FundManager.Common.Constants;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigitalDocumentPlatform.API.Controllers
+namespace FundManager.API.Controllers
 {
     [Route("api/customer-sign")]
     [ApiController]

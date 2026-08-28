@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Implement.ViewModels
+﻿namespace FundManager.Implement.ViewModels
 {
     public class CurrentEmployeeInfo
     {

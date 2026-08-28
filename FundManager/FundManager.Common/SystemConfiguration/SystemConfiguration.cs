@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace DigitalDocumentPlatform.Common.SystemConfiguration
+namespace FundManager.Common.SystemConfiguration
 {
     public class SystemConfiguration : ISystemConfiguration
     {

@@ -1,14 +1,14 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class PatronDeviceService : IPatronDeviceService
     {

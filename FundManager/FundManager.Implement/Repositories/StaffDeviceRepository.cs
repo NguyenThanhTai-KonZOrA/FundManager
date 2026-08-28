@@ -1,10 +1,10 @@
-﻿using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.Implement.Repositories
+namespace FundManager.Implement.Repositories
 {
     public class StaffDeviceRepository : GenericRepository<StaffDevice>, IStaffDeviceRepository
     {

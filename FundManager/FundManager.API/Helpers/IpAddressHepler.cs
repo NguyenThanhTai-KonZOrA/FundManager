@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Net;
 
-namespace DigitalDocumentPlatform.API.Helpers
+namespace FundManager.API.Helpers
 {
     public static class IpAddressHepler
     {

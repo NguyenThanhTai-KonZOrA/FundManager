@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Common.Enum;
+﻿using FundManager.Common.Enum;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Request
+namespace FundManager.Implement.ViewModels.Request
 {
     public class SignatureConfirmRequest
     {

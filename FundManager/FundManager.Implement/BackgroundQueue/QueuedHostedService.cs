@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.BackgroundQueue;
+﻿using FundManager.BackgroundQueue;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.BackgroundQueue
+namespace FundManager.Implement.BackgroundQueue
 {
     public class QueuedHostedService : BackgroundService
     {

@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text;
 
-namespace DigitalDocumentPlatform.Common.Helper
+namespace FundManager.Common.Helper
 {
     public static class StringHelper
     {

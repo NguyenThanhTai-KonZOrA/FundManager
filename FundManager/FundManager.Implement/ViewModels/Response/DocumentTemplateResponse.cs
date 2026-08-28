@@ -1,6 +1,6 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.DataAccess.EntityModels;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Response
+namespace FundManager.Implement.ViewModels.Response
 {
     public class DocumentTemplateResponse
     {

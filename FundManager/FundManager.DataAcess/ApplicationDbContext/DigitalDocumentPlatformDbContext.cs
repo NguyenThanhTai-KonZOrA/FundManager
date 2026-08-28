@@ -1,9 +1,9 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.DataAccess.Initalizer;
+using FundManager.DataAccess.EntityModels;
+using FundManager.DataAccess.Initalizer;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
-namespace DigitalDocumentPlatform.DataAccess.ApplicationDbContext
+namespace FundManager.DataAccess.ApplicationDbContext
 {
     public class DigitalDocumentPlatformDbContext : DbContext
     {

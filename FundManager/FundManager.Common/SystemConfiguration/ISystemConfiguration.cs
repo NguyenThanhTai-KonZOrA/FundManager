@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.SystemConfiguration
+﻿namespace FundManager.Common.SystemConfiguration
 {
     public interface ISystemConfiguration
     {

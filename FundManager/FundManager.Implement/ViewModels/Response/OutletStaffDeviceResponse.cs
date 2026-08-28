@@ -1,4 +1,4 @@
-namespace DigitalDocumentPlatform.Implement.ViewModels.Response
+namespace FundManager.Implement.ViewModels.Response
 {
     /// <summary>
     /// Represents a StaffDevice assigned to an Outlet, including its paired PatronDevice if any.

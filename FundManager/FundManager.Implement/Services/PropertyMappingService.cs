@@ -1,8 +1,8 @@
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class PropertyMappingService : IPropertyMappingService
     {

@@ -1,14 +1,14 @@
-﻿using DigitalDocumentPlatform.Common.ApiClient;
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.Common.ApiClient;
+using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class EmployeeService : IEmployeeService
     {

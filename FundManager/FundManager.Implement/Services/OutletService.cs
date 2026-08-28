@@ -1,11 +1,11 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class OutletService : IOutletService
     {

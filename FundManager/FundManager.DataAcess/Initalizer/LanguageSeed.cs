@@ -1,7 +1,7 @@
 ﻿
-using DigitalDocumentPlatform.Common.Constants;
+using FundManager.Common.Constants;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     public static class LanguageSeed
     {

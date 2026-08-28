@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.DataAccess.EntityModels;
+﻿using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     public static class CountrySeed
     {

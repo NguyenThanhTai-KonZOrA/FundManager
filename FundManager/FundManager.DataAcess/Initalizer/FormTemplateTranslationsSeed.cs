@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+﻿using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     /// <summary>
     /// Seeds Vietnamese (vi) translations for the three Spa Consultation Form Templates.

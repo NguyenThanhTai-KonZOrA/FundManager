@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.Common.Enum;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+﻿using FundManager.Common.Enum;
+using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     public static class ApplicationImageSeed
     {
@@ -138,7 +138,7 @@ namespace DigitalDocumentPlatform.DataAccess.Initalizer
                     Name = "English Flag",
                     Description = "English Flag",
                     FileExtension = ".svg",
-                    FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg",
+                    FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg",
                     FileSize = 1274, // Example file size in bytes
                     FileUrl = "/ApplicationImages/bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg",
                     OutletId = null,
@@ -155,7 +155,7 @@ namespace DigitalDocumentPlatform.DataAccess.Initalizer
                      Name = "Vietnam Flag",
                      Description = "Vietnam Flag",
                      FileExtension = ".svg",
-                     FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg",
+                     FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg",
                      FileSize = 1274, // Example file size in bytes
                      FileUrl = "/ApplicationImages/6640af6d-60a0-4cea-98c8-1871e7facb0e.svg",
                      OutletId = null,
@@ -172,7 +172,7 @@ namespace DigitalDocumentPlatform.DataAccess.Initalizer
                       Name = "Korean Flag",
                       Description = "Korean Flag",
                       FileExtension = ".svg",
-                      FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg",
+                      FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg",
                       FileSize = 1274, // Example file size in bytes
                       FileUrl = "/ApplicationImages/f4bb608f-5a36-4b58-9959-c3361228a7ee.svg",
                       OutletId = null,
@@ -189,7 +189,7 @@ namespace DigitalDocumentPlatform.DataAccess.Initalizer
                       Name = "China Flag",
                       Description = "China Flag",
                       FileExtension = ".svg",
-                      FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\d350d454-b583-4725-b20f-7c1a0e03d51b.svg",
+                      FilePath = "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\d350d454-b583-4725-b20f-7c1a0e03d51b.svg",
                       FileSize = 1274, // Example file size in bytes
                       FileUrl = "/ApplicationImages/d350d454-b583-4725-b20f-7c1a0e03d51b.svg",
                       OutletId = null,

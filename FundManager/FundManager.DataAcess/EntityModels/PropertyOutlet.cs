@@ -1,7 +1,7 @@
 
-using DigitalDocumentPlatform.Common.BaseEntity;
+using FundManager.Common.BaseEntity;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Join table for many-to-many relationship between Property and Outlet.

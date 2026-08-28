@@ -1,7 +1,7 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.DataAccess.EntityModels;
 using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Request
+namespace FundManager.Implement.ViewModels.Request
 {
     public class CreateDocumentTemplateRequest
     {

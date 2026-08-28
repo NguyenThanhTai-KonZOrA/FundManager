@@ -1,12 +1,12 @@
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Request;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Diagnostics;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace DigitalDocumentPlatform.API.Filters
+namespace FundManager.API.Filters
 {
     /// <summary>
     /// Attribute to automatically log audit entries for controller actions.

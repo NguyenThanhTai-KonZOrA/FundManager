@@ -1,9 +1,9 @@
-﻿using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.DataAccess.ExternalEntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
+﻿using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.DataAccess.ExternalEntityModels;
+using FundManager.Implement.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.Implement.Repositories
+namespace FundManager.Implement.Repositories
 {
     public class ReservationSnapshotRepository : IReservationSnapshotRepository
     {

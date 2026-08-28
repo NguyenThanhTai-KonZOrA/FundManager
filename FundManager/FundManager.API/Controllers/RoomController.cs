@@ -1,9 +1,9 @@
-﻿using DigitalDocumentPlatform.API.Filters;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
+﻿using FundManager.API.Filters;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Request;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigitalDocumentPlatform.API.Controllers
+namespace FundManager.API.Controllers
 {
     [Route("api/room")]
     [ApiController]

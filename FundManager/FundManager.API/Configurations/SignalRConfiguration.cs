@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Implement.SignalRHubs;
+﻿using FundManager.Implement.SignalRHubs;
 using NLog;
 
-namespace DigitalDocumentPlatform.API.Configurations
+namespace FundManager.API.Configurations
 {
     public static class SignalRConfiguration
     {

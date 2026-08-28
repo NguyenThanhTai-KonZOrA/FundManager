@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Implement.Repositories.Interface;
+﻿using FundManager.Implement.Repositories.Interface;
 
-namespace DigitalDocumentPlatform.Implement.UnitOfWork
+namespace FundManager.Implement.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {

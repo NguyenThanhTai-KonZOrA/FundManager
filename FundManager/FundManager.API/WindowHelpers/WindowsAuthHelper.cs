@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 
-namespace DigitalDocumentPlatform.API.WindowHelpers
+namespace FundManager.API.WindowHelpers
 {
     public static class WindowsAuthHelper
     {

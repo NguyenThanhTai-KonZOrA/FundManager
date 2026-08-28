@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.DataAccess.ExternalEntityModels;
+﻿using FundManager.DataAccess.ExternalEntityModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.DataAccess.ApplicationDbContext
+namespace FundManager.DataAccess.ApplicationDbContext
 {
     public class BreakFastCheckInDbContext : DbContext
     {

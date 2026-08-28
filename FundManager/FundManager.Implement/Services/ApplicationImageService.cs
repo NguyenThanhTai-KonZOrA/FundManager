@@ -1,16 +1,16 @@
-using DigitalDocumentPlatform.Common.Enum;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+using FundManager.Common.Enum;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel;
 using System.Reflection;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class ApplicationImageService : IApplicationImageService
     {

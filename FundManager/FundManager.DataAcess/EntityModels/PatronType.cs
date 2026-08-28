@@ -1,7 +1,7 @@
-using DigitalDocumentPlatform.Common.BaseEntity;
+using FundManager.Common.BaseEntity;
 using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Patron classification type, e.g. VIP, Standard, Member.

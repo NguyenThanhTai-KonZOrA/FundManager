@@ -1,4 +1,4 @@
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Defines the possible question types for a form question.

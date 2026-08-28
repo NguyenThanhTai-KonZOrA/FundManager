@@ -1,7 +1,7 @@
-using DigitalDocumentPlatform.Common.Enum;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.Common.Enum;
+using FundManager.DataAccess.EntityModels;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IPatronSignatureRepository : IGenericRepository<PatronSignature>
     {

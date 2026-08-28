@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 
-namespace DigitalDocumentPlatform.Implement.Services.Interface
+namespace FundManager.Implement.Services.Interface
 {
     public interface IEmployeeRoleService
     {

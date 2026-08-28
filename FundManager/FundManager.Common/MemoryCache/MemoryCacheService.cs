@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Caching.Memory;
 
-namespace DigitalDocumentPlatform.Common.MemoryCache
+namespace FundManager.Common.MemoryCache
 {
     public class MemoryCacheService : ICacheService
     {

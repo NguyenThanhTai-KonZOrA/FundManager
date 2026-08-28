@@ -1,8 +1,8 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.SignalRHubs;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
+﻿using FundManager.Common.Constants;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.SignalRHubs;
+using FundManager.Implement.UnitOfWork;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
-namespace DigitalDocumentPlatform.Implement.Workers
+namespace FundManager.Implement.Workers
 {
     /// <summary>
     /// Background worker that periodically scans pending Notification rows

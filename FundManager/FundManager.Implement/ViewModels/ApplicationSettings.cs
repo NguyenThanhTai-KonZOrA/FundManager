@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
+﻿using FundManager.Common.Constants;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels
+namespace FundManager.Implement.ViewModels
 {
     public class ApplicationSettingDto
     {

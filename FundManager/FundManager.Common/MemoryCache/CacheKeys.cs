@@ -1,4 +1,4 @@
-namespace DigitalDocumentPlatform.Common.MemoryCache
+namespace FundManager.Common.MemoryCache
 {
     public static class CacheKeys
     {

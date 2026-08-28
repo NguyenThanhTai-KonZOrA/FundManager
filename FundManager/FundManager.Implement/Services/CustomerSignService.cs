@@ -1,20 +1,20 @@
-using DigitalDocumentPlatform.BackgroundQueue;
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.Common.Enum;
-using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.UnitOfWork;
-using DigitalDocumentPlatform.Implement.ViewModels;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+using FundManager.BackgroundQueue;
+using FundManager.Common.Constants;
+using FundManager.Common.Enum;
+using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Repositories.Interface;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.UnitOfWork;
+using FundManager.Implement.ViewModels;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class CustomerSignService : ICustomerSignService
     {

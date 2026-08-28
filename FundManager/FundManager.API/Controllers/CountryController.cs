@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Implement.Services.Interface;
+﻿using FundManager.Implement.Services.Interface;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigitalDocumentPlatform.API.Controllers
+namespace FundManager.API.Controllers
 {
     [Route("api/countries")]
     [ApiController]

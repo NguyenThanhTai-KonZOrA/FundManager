@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.Constants
+﻿namespace FundManager.Common.Constants
 {
     public static class NotificationStatus
     {

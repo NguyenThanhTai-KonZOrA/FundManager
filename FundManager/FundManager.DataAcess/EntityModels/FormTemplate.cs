@@ -1,7 +1,7 @@
-using DigitalDocumentPlatform.Common.BaseEntity;
+using FundManager.Common.BaseEntity;
 using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Defines a configurable form (e.g. Spa Consultation Form).

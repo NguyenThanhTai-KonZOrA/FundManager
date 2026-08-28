@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DigitalDocumentPlatform.DataAccess.ExternalEntityModels
+namespace FundManager.DataAccess.ExternalEntityModels
 {
     [Table("BCI_ReservationSnapshot")]
     public class ReservationSnapshot

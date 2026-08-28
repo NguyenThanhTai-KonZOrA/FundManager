@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Implement.Models.Request
+﻿namespace FundManager.Implement.Models.Request
 {
     public class RegisterDeviceRequest
     {

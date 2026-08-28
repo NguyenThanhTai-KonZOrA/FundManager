@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Implement.ViewModels;
+﻿using FundManager.Implement.ViewModels;
 
-namespace DigitalDocumentPlatform.Implement.Services.Interface
+namespace FundManager.Implement.Services.Interface
 {
     public interface IApplicationSettingsService
     {

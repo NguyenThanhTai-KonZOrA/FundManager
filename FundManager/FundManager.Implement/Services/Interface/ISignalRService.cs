@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.DataAccess.EntityModels;
+﻿using FundManager.DataAccess.EntityModels;
 
-namespace DigitalDocumentPlatform.Implement.Services.Interface
+namespace FundManager.Implement.Services.Interface
 {
     public interface ISignalRService
     {

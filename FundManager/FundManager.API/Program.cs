@@ -1,7 +1,7 @@
-using DigitalDocumentPlatform.API.Configurations;
-using DigitalDocumentPlatform.Common.ApiClient;
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
+using FundManager.API.Configurations;
+using FundManager.Common.ApiClient;
+using FundManager.Common.Constants;
+using FundManager.DataAccess.ApplicationDbContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

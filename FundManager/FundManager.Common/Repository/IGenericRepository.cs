@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Common.PagedResult;
+﻿using FundManager.Common.PagedResult;
 using System.Linq.Expressions;
 
-namespace DigitalDocumentPlatform.Common.Repository
+namespace FundManager.Common.Repository
 {
     public interface IGenericRepository<T> where T : class
     {

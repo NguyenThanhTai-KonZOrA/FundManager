@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace DigitalDocumentPlatform.DataAccess.Migrations
+namespace FundManager.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class INIT_DATABASE : Migration
@@ -1004,10 +1004,10 @@ namespace DigitalDocumentPlatform.DataAccess.Migrations
                 values: new object[,]
                 {
                     { 1, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "The Grand Ho Tram Logo", ".png", "/ApplicationImages/TheGrandHoTramLogo.png", 3100L, "/ApplicationImages/16831151-1e2c-4f27-bc56-1a26c3afef0f.jpg", true, false, "The Grand Ho Tram", null, null, (byte)2, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
-                    { 8, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "English Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg", 1274L, "/ApplicationImages/bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg", true, false, "English Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
-                    { 9, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "Vietnam Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg", 1274L, "/ApplicationImages/6640af6d-60a0-4cea-98c8-1871e7facb0e.svg", true, false, "Vietnam Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
-                    { 10, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "Korean Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg", 1274L, "/ApplicationImages/f4bb608f-5a36-4b58-9959-c3361228a7ee.svg", true, false, "Korean Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
-                    { 11, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "China Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\DigitalDocumentPlatform.API\\ApplicationImages\\d350d454-b583-4725-b20f-7c1a0e03d51b.svg", 1274L, "/ApplicationImages/d350d454-b583-4725-b20f-7c1a0e03d51b.svg", true, false, "China Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" }
+                    { 8, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "English Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg", 1274L, "/ApplicationImages/bf6f69ff-9957-4faf-8524-6833eb96e3f9.svg", true, false, "English Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
+                    { 9, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "Vietnam Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\6640af6d-60a0-4cea-98c8-1871e7facb0e.svg", 1274L, "/ApplicationImages/6640af6d-60a0-4cea-98c8-1871e7facb0e.svg", true, false, "Vietnam Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
+                    { 10, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "Korean Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\f4bb608f-5a36-4b58-9959-c3361228a7ee.svg", 1274L, "/ApplicationImages/f4bb608f-5a36-4b58-9959-c3361228a7ee.svg", true, false, "Korean Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" },
+                    { 11, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System", "China Flag", ".svg", "D:\\IIS Publish\\DigitalDocumentPlatform\\FundManager.API\\ApplicationImages\\d350d454-b583-4725-b20f-7c1a0e03d51b.svg", 1274L, "/ApplicationImages/d350d454-b583-4725-b20f-7c1a0e03d51b.svg", true, false, "China Flag", null, null, (byte)4, new DateTime(2026, 5, 19, 0, 0, 0, 0, DateTimeKind.Utc), "System" }
                 });
 
             migrationBuilder.InsertData(

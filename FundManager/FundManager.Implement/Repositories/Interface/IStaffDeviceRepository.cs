@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.ViewModels.Response;
 
-namespace DigitalDocumentPlatform.Implement.Repositories.Interface
+namespace FundManager.Implement.Repositories.Interface
 {
     public interface IStaffDeviceRepository : IGenericRepository<StaffDevice>
     {

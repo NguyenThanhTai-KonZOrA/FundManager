@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.BackgroundQueue
+﻿namespace FundManager.BackgroundQueue
 {
     public interface IBackgroundTaskQueue
     {

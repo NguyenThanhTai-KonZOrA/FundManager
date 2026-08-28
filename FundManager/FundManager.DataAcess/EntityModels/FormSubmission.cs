@@ -1,9 +1,9 @@
-using DigitalDocumentPlatform.Common.BaseEntity;
-using DigitalDocumentPlatform.Common.Constants;
+using FundManager.Common.BaseEntity;
+using FundManager.Common.Constants;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// One patron's completed response to a FormTemplate.

@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.JwtAuthen
+﻿namespace FundManager.Common.JwtAuthen
 {
     public class JwtOptions
     {

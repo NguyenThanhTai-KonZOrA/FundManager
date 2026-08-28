@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace DigitalDocumentPlatform.Common.Helper
+namespace FundManager.Common.Helper
 {
     public static class EnumHepler
     {

@@ -1,9 +1,9 @@
-﻿using DigitalDocumentPlatform.DataAccess.ApplicationDbContext;
-using DigitalDocumentPlatform.Implement.Repositories.Interface;
+﻿using FundManager.DataAccess.ApplicationDbContext;
+using FundManager.Implement.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace DigitalDocumentPlatform.Implement.Repositories
+namespace FundManager.Implement.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

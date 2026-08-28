@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.PagedResult
+﻿namespace FundManager.Common.PagedResult
 {
     public class PagedResult<T>
     {

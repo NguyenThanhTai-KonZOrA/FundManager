@@ -1,9 +1,9 @@
-﻿using DigitalDocumentPlatform.Implement.Services.Interface;
+﻿using FundManager.Implement.Services.Interface;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using System.Security.Cryptography;
 
-namespace DigitalDocumentPlatform.Implement.Services
+namespace FundManager.Implement.Services
 {
     public class RefreshTokenService : IRefreshTokenService
     {

@@ -1,8 +1,8 @@
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     /// <summary>
     /// Seeds default workflow definitions and steps for The Spa outlet.

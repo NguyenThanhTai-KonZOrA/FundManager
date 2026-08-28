@@ -1,11 +1,11 @@
-﻿using DigitalDocumentPlatform.API.WindowHelpers;
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.Common.JwtAuthen;
-using DigitalDocumentPlatform.Common.SystemConfiguration;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Request;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.API.WindowHelpers;
+using FundManager.Common.Constants;
+using FundManager.Common.JwtAuthen;
+using FundManager.Common.SystemConfiguration;
+using FundManager.DataAccess.EntityModels;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Request;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -13,7 +13,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace DigitalDocumentPlatform.API.Controllers
+namespace FundManager.API.Controllers
 {
     [Route("api/auth")]
     [ApiController]

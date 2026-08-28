@@ -1,10 +1,10 @@
-﻿using DigitalDocumentPlatform.API.Helpers;
-using DigitalDocumentPlatform.Implement.Models.Request;
-using DigitalDocumentPlatform.Implement.Services.Interface;
-using DigitalDocumentPlatform.Implement.ViewModels.Response;
+﻿using FundManager.API.Helpers;
+using FundManager.Implement.Models.Request;
+using FundManager.Implement.Services.Interface;
+using FundManager.Implement.ViewModels.Response;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DigitalDocumentPlatform.API.Controllers
+namespace FundManager.API.Controllers
 {
     [ApiController]
     [Route("api/patron-device")]

@@ -1,8 +1,8 @@
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DigitalDocumentPlatform.DataAccess.Configurations
+namespace FundManager.DataAccess.Configurations
 {
     public class ApplicationSettingsConfiguration : IEntityTypeConfiguration<ApplicationSettings>
     {

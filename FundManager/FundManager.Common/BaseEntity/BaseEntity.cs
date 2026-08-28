@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Common.Constants;
+﻿using FundManager.Common.Constants;
 using System.ComponentModel.DataAnnotations;
 
-namespace DigitalDocumentPlatform.Common.BaseEntity
+namespace FundManager.Common.BaseEntity
 {
     public abstract class BaseEntity
     {

@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Common.BaseEntity;
+﻿using FundManager.Common.BaseEntity;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     public class RolePermission : BaseEntity
     {

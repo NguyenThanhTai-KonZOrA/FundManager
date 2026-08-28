@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.BackgroundQueue;
+﻿using FundManager.BackgroundQueue;
 using System.Threading.Channels;
 
-namespace DigitalDocumentPlatform.Implement.BackgroundQueue
+namespace FundManager.Implement.BackgroundQueue
 {
     public class BackgroundTaskQueue : IBackgroundTaskQueue
     {

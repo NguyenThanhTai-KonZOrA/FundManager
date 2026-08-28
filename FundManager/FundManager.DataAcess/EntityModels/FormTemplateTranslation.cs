@@ -1,8 +1,8 @@
-using DigitalDocumentPlatform.Common.BaseEntity;
+using FundManager.Common.BaseEntity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DigitalDocumentPlatform.DataAccess.EntityModels
+namespace FundManager.DataAccess.EntityModels
 {
     /// <summary>
     /// Multilingual translation for a FormTemplate.

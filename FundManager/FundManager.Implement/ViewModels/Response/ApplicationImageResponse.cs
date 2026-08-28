@@ -1,6 +1,6 @@
-﻿using DigitalDocumentPlatform.Common.Enum;
+﻿using FundManager.Common.Enum;
 
-namespace DigitalDocumentPlatform.Implement.ViewModels.Response
+namespace FundManager.Implement.ViewModels.Response
 {
     public class ApplicationImageResponse
     {

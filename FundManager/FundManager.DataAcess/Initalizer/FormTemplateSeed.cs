@@ -1,8 +1,8 @@
-using DigitalDocumentPlatform.Common.Constants;
-using DigitalDocumentPlatform.DataAccess.EntityModels;
+using FundManager.Common.Constants;
+using FundManager.DataAccess.EntityModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace DigitalDocumentPlatform.DataAccess.Initalizer
+namespace FundManager.DataAccess.Initalizer
 {
     /// <summary>
     /// Seeds the Spa Consultation Form template with all 10 questions

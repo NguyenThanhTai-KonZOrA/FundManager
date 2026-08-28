@@ -1,7 +1,7 @@
-﻿using DigitalDocumentPlatform.Implement.ViewModels;
+﻿using FundManager.Implement.ViewModels;
 using System.Security.Claims;
 
-namespace DigitalDocumentPlatform.API.Helpers
+namespace FundManager.API.Helpers
 {
     public static class EmployeeHelper
     {

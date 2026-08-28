@@ -1,4 +1,4 @@
-﻿namespace DigitalDocumentPlatform.Common.ApiClient
+﻿namespace FundManager.Common.ApiClient
 {
     public interface IApiClient
     {

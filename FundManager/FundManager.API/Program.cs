@@ -16,7 +16,7 @@ var logger = LogManager.Setup()
     .LoadConfigurationFromFile("NLog.config")
     .GetCurrentClassLogger();
 
-logger.Info("============> Digital Document Platform API initializing... <============");
+logger.Info("============> Fund Manager API initializing... <============");
 
 try
 {
@@ -125,7 +125,7 @@ try
             BearerFormat = "JWT",
             Scheme = "Bearer"
         });
-        options.SwaggerDoc("v1", new() { Title = "Digital Document Platform API", Version = "v1" });
+        options.SwaggerDoc("v1", new() { Title = "Fund Manager API", Version = "v1" });
     });
     #endregion
 

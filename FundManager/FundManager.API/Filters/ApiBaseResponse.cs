@@ -1,4 +1,4 @@
-﻿namespace ProjectManagement.API.Filters
+﻿namespace FundManager.API.Filters
 {
     public class ApiBaseResponse<T>
     {

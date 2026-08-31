@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using ProjectManagement.API.Filters;
 
 namespace FundManager.API.Filters
 {
